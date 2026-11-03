@@ -19,7 +19,7 @@ jobs:
           sudo docker image prune --all --force
 
       - name: Pobierz pliki projektu
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Zaloguj do rejestru GitHub (GHCR)
         uses: docker/login-action@v3
